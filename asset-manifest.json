@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/riuz-web/static/css/main.833d885d.css",
+    "main.js": "/riuz-web/static/js/main.3949a13c.js",
+    "static/js/787.2c7f0672.chunk.js": "/riuz-web/static/js/787.2c7f0672.chunk.js",
+    "static/media/Illustation.png": "/riuz-web/static/media/Illustation.e0c03e12a5b95aed0db1.png",
+    "static/media/vivaldi.webp": "/riuz-web/static/media/vivaldi.a4e742fc646cd0a1fcfd.webp",
+    "index.html": "/riuz-web/index.html",
+    "main.833d885d.css.map": "/riuz-web/static/css/main.833d885d.css.map",
+    "main.3949a13c.js.map": "/riuz-web/static/js/main.3949a13c.js.map",
+    "787.2c7f0672.chunk.js.map": "/riuz-web/static/js/787.2c7f0672.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.833d885d.css",
+    "static/js/main.3949a13c.js"
+  ]
+}
