@@ -1,0 +1,28 @@
+
+#cursor-container{
+	visibility: hidden;
+	justify-content: center;
+	align-items: center;
+	background-color: #fc7e352a;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	pointer-events: none;
+	z-index: 9999;
+	transition: transform 2s cubic-bezier(.02,1.2,.8,1),opacity .25s ease;
+}
+
+
+#pointer{
+	background-color: #FC7F35;
+	visibility: hidden;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	pointer-events: none;
+	z-index: 9999;
+}

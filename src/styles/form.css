@@ -1,0 +1,167 @@
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.load-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.mail-input , .text-input {
+    border: none;
+    background-color: #f0e1cc;
+    outline: none;
+    width: 380px;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-weight: 600;
+    color: #2F2F2F;
+}
+
+.mail-input::placeholder , .text-input::placeholder{
+    color: #2f2f2fa9;
+    font-family:'Poppins';
+    font-weight: 600;
+}
+
+
+.text-input{
+    height: 100px;
+    resize: none;
+    margin-bottom: 15px;
+    font-weight: 600;
+    outline: none;
+    color: #2F2F2F;
+}
+
+
+
+
+.spinner {
+    -webkit-animation: rotator 1.4s linear infinite;
+            animation: rotator 1.4s linear infinite;
+  }
+  
+  @-webkit-keyframes rotator {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(270deg);
+    }
+  }
+  
+  @keyframes rotator {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(270deg);
+    }
+  }
+  .path {
+    stroke-dasharray: 187;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    -webkit-animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+            animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+  }
+  
+  @-webkit-keyframes colors {
+    0% {
+      stroke: #f0e1cc;
+    }
+    25% {
+      stroke: #f0e1cc;
+    }
+    50% {
+      stroke: #f0e1cc;
+    }
+    75% {
+      stroke: #f0e1cc;
+    }
+    100% {
+      stroke: #f0e1cc;
+    }
+  }
+  
+  @keyframes colors {
+    0% {
+        stroke: #f29157;
+    }
+    25% {
+        stroke: #f29157;
+    }
+    50% {
+        stroke: #f29157;
+    }
+    75% {
+        stroke: #f29157;
+    }
+    100% {
+        stroke: #f29157;
+    }
+  }
+  @-webkit-keyframes dash {
+    0% {
+      stroke-dashoffset: 187;
+    }
+    50% {
+      stroke-dashoffset: 46.75;
+      transform: rotate(135deg);
+    }
+    100% {
+      stroke-dashoffset: 187;
+      transform: rotate(450deg);
+    }
+  }
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 187;
+    }
+    50% {
+      stroke-dashoffset: 46.75;
+      transform: rotate(135deg);
+    }
+    100% {
+      stroke-dashoffset: 187;
+      transform: rotate(450deg);
+    }
+  }
+
+
+
+@media (max-width: 695px) {
+	.mail-input , .text-input {
+        width: 290px;
+
+	}
+}
+
+@media (max-width: 595px) {
+    .mail-input , .text-input {
+        width: 250px;
+    }
+
+}
+
+
+@media (max-width: 395px) {
+    .mail-input , .text-input {
+        width: 220px;
+    }
+
+}
+
+

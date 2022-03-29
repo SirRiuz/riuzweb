@@ -1,0 +1,97 @@
+
+
+.project-screen{
+	margin-top: 50px;
+}
+
+
+.project-card{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(196, 196, 196,.20);
+	width: 350px;
+	height: 350px;
+	border-radius: 5px;
+}
+
+
+.app-icon{
+	width: 230px;
+	height: 230px;
+	border-radius: 22.5%;
+	background-repeat: no-repeat;
+	background-position: center	;
+	background-size: contain;
+}
+
+.hover-view{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.05);
+	animation: mymove 1.2s both;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+@keyframes mymove {
+	5%{ backdrop-filter:blur(5px); }
+	50%{ backdrop-filter:blur(20px); }
+	70%{ backdrop-filter:blur(25px); }
+	100%{ backdrop-filter:blur(40px);	}
+}
+
+
+
+
+
+
+
+
+.project-data-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.project-data-container p {
+	color: black;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 139.8%;
+	text-overflow: ellipsis;
+	width: 253px;
+}
+
+
+.project-data-container h3 {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 139.8%;
+}
+
+
+
+#project-title{
+		font-weight: 600;
+	font-size: 25px;
+	line-height: 139.8%;
+}
+
+
+@media (max-width: 495px) {
+	.project-card{
+		width: 100%;
+	}
+	.project-screen{
+		margin-top: 0px;
+	}
+}

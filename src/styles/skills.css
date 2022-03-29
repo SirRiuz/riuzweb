@@ -1,0 +1,44 @@
+
+
+.skill-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+	gap: 5px;
+	border-radius: 100px;
+	padding: 10px;
+	border: 3px solid #2F2F2F;
+	box-sizing: border-box;
+}
+
+
+.skill-container strong {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 94.8%;	
+	color: #2F2F2F;
+}
+
+
+.skill-icon{
+	width: 22px;
+	height: 22px;
+	border-radius: 5px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+
+
+
+
+@media(max-width:995px){
+	.skill-container{ }
+	.skill-container strong{
+		font-size: 14px;
+	}
+}
