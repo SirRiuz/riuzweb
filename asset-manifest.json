@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/riuz-web/static/css/main.b7bf7800.css",
-    "main.js": "/riuz-web/static/js/main.bd10c7b9.js",
-    "static/js/787.2c7f0672.chunk.js": "/riuz-web/static/js/787.2c7f0672.chunk.js",
-    "static/media/Illustation.png": "/riuz-web/static/media/Illustation.e0c03e12a5b95aed0db1.png",
-    "static/media/vivaldi.webp": "/riuz-web/static/media/vivaldi.a4e742fc646cd0a1fcfd.webp",
-    "index.html": "/riuz-web/index.html",
-    "main.b7bf7800.css.map": "/riuz-web/static/css/main.b7bf7800.css.map",
-    "main.bd10c7b9.js.map": "/riuz-web/static/js/main.bd10c7b9.js.map",
-    "787.2c7f0672.chunk.js.map": "/riuz-web/static/js/787.2c7f0672.chunk.js.map"
+    "main.css": "/riuzweb/static/css/main.b7bf7800.css",
+    "main.js": "/riuzweb/static/js/main.e5acdef5.js",
+    "static/js/787.2c7f0672.chunk.js": "/riuzweb/static/js/787.2c7f0672.chunk.js",
+    "static/media/Illustation.png": "/riuzweb/static/media/Illustation.e0c03e12a5b95aed0db1.png",
+    "static/media/vivaldi.webp": "/riuzweb/static/media/vivaldi.a4e742fc646cd0a1fcfd.webp",
+    "index.html": "/riuzweb/index.html",
+    "main.b7bf7800.css.map": "/riuzweb/static/css/main.b7bf7800.css.map",
+    "main.e5acdef5.js.map": "/riuzweb/static/js/main.e5acdef5.js.map",
+    "787.2c7f0672.chunk.js.map": "/riuzweb/static/js/787.2c7f0672.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7bf7800.css",
-    "static/js/main.bd10c7b9.js"
+    "static/js/main.e5acdef5.js"
   ]
 }
